@@ -114,7 +114,6 @@ static NSString *collectionHeader = @"mineHeader";
             cell.hidden = YES;
         }
     }else{
-        
         cell.cellImage.image = [UIImage imageNamed:self.imagesSectionTwoArray[indexPath.row]];
         if (_sectionTwoIsSort && indexPath.row + 1 == self.imagesSectionTwoArray.count) {
             cell.hidden = YES;
@@ -305,7 +304,6 @@ static NSString *collectionHeader = @"mineHeader";
     point = CGPointMake(point.x, point.y + _scrollerValue);
     _mineCollection.contentOffset = point;
 }
-
 
 
 - (void)didReceiveMemoryWarning {
