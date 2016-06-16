@@ -114,6 +114,7 @@ static NSString *collectionHeader = @"mineHeader";
             cell.hidden = YES;
         }
     }else{
+        
         cell.cellImage.image = [UIImage imageNamed:self.imagesSectionTwoArray[indexPath.row]];
         if (_sectionTwoIsSort && indexPath.row + 1 == self.imagesSectionTwoArray.count) {
             cell.hidden = YES;
