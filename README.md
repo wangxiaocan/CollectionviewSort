@@ -1,2 +1,2 @@
 # CollectionviewSort
-优化代码
+![sort image](https://github.com/wangxiaocan/CollectionviewSort/raw/master/Untitled2.gif)
